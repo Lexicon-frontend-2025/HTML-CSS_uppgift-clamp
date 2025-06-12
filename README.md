@@ -99,6 +99,13 @@ Lägg till CSS så att:
 
 💡 Tips: Använd grid-template-columns: repeat(3, minmax(...));
 
+📚 Läs mer
+* [MDN – ```min()```](https://developer.mozilla.org/en-US/docs/Web/CSS/min)
+
+* [MDN – ```max()```](https://developer.mozilla.org/en-US/docs/Web/CSS/max)
+
+* [MDN – ```minmax()```](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
+
 ---
  
 ## 🧠 Tips
