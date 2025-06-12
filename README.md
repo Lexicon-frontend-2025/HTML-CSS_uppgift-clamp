@@ -96,11 +96,11 @@ Lägg till CSS så att:
 1. Lägg till en container med flera barn:
 
 ```html
-<div class="grid">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-</div>
+<ul class="grid">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ul>
 ```
 2. I CSS:
 
