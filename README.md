@@ -34,7 +34,7 @@ Att förstå och använda CSS-funktionen `clamp()` för att skapa responsiva ege
 ```
 
 2. **Skapa en CSS-fil (style.css)** med grundläggande layout och lägg till egna ```clamp()```-uttryck enligt instruktionerna nedan:
-🎨 CSS-uppgifter
+## 🎨 CSS-uppgifter
 * Ange en textstorlek för ```h1``` som:
   * Aldrig blir mindre än ```2rem```
 
@@ -57,3 +57,56 @@ Att förstå och använda CSS-funktionen `clamp()` för att skapa responsiva ege
 * Lägg till padding på ```<section>```:
 
   * Använd ```clamp()``` för att skala mellan exempelvis ```1rem``` och ```2rem```
+ 
+## 🪭 Extra
+  #### Miniövning: `min()`, `max()` och `minmax()`
+
+## 📄 Instruktioner
+
+### ✅ Uppgift 1 – `min()` och `max()`
+
+1. Skapa en `<div>` med klassen `box` i din HTML:
+
+```html
+<div class="box">
+  <p>Jag har responsiv bredd och höjd!</p>
+</div>
+```
+
+Lägg till CSS så att:
+
+* Bredden blir 100% av föräldern, men aldrig större än ```600px``` (använd ```min()``` eller ```max()```)
+
+* Höjden blir minst ```200px```, men växer vid behov (t.ex. vid mycket innehåll)
+
+💡 Tips: Använd width: ```min(...);``` eller ```max(...)```, och ```min-height: ...```
+
+### ✅ Uppgift 2 – minmax() med CSS Grid
+1. Lägg till en container med flera barn:
+
+```html
+<div class="grid">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+```
+2. I CSS:
+
+* Använd CSS Grid och skapa 3 kolumner
+
+* Kolumnerna ska vara minst 150px breda men fylla resten jämnt om plats finns
+
+💡 Tips: Använd grid-template-columns: repeat(3, minmax(...));
+
+---
+ 
+## 🧠 Tips
+* Syntax:
+  * ```clamp(min-värde, idealvärde, max-värde)```
+
+* Kombinera t.ex. ```rem``` och ```vw``` i mittenvärdet för bästa resultat.
+
+* ```vw``` = 1% av viewportens bredd.
+
+* Använd devtools för att testa olika skärmstorlekar!
