@@ -3,6 +3,17 @@
 ## 🎯 Mål
 Att förstå och använda CSS-funktionen `clamp()` för att skapa responsiva egenskaper som skalar beroende på skärmens storlek – särskilt **textstorlek** och **spacing**.
 
+ 
+## 🧠 Tips
+* Syntax:
+  * ```clamp(min-värde, idealvärde, max-värde)```
+
+* Kombinera t.ex. ```rem``` och ```vw``` i mittenvärdet för bästa resultat.
+
+* ```vw``` = 1% av viewportens bredd.
+
+* Använd devtools för att testa olika skärmstorlekar!
+
 ---
 
 ## 📄 Instruktioner
@@ -107,13 +118,4 @@ Lägg till CSS så att:
 * [MDN – ```minmax()```](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
 
 ---
- 
-## 🧠 Tips
-* Syntax:
-  * ```clamp(min-värde, idealvärde, max-värde)```
 
-* Kombinera t.ex. ```rem``` och ```vw``` i mittenvärdet för bästa resultat.
-
-* ```vw``` = 1% av viewportens bredd.
-
-* Använd devtools för att testa olika skärmstorlekar!
