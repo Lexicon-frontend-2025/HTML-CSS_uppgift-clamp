@@ -33,27 +33,27 @@ Att förstå och använda CSS-funktionen `clamp()` för att skapa responsiva ege
 </html>
 ```
 
-2. **Skapa en CSS-fil (style.css)** med grundläggande layout och lägg till egna clamp()-uttryck enligt instruktionerna nedan:
+2. **Skapa en CSS-fil (style.css)** med grundläggande layout och lägg till egna ```clamp()```-uttryck enligt instruktionerna nedan:
 🎨 CSS-uppgifter
-* Ange en textstorlek för h1 som:
-  * Aldrig blir mindre än 2rem
+* Ange en textstorlek för ```h1``` som:
+  * Aldrig blir mindre än ```2rem```
 
-  * Idealt baseras på viewportens bredd (t.ex. vw)
+  * Idealt baseras på viewportens bredd (t.ex. ```vw```)
 
-  * Aldrig blir större än 4rem
+  * Aldrig blir större än ```4rem```
 
-* Ange en textstorlek för h2 som:
+* Ange en textstorlek för ```h2``` som:
 
-  * Minimum 1.5rem
+  * Minimum ```1.5rem```
 
-  * Max 2.5rem
+  * Max ```2.5rem```
 
   * Med en flexibel mittpunkt
 
-* Lägg till padding på <body> med clamp():
+* Lägg till padding på ```<body>``` med ```clamp()```:
 
-  * Minst 1rem, max 3rem, skala med viewportbredd
+  * Minst ```1rem```, max ```3rem```, skala med viewportbredd
 
-* Lägg till padding på <section>:
+* Lägg till padding på ```<section>```:
 
-  * Använd clamp() för att skala mellan exempelvis 1rem och 2rem
+  * Använd ```clamp()``` för att skala mellan exempelvis ```1rem``` och ```2rem```
